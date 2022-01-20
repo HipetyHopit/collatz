@@ -4,6 +4,12 @@
 
 using namespace std;
 
+/*
+The problem does not run very long for even quite large inputs. 
+Problems with managing large integerr arithmetic will crop up long 
+before execution time becomes a problem, so more than one thread 
+is not really useful and will actually hinder execution.
+*/
 void getCollatzSteps(long long n, int* result) {
     int count = 0;
 
