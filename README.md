@@ -1,12 +1,13 @@
 # Collatz
-
 Author: Pieter Kok
-Requirements:
+
+## Requirements
+
 - C++ 11
 
 ## Build
 
-run
+Run
 ```
  $ make build
 ```
